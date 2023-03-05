@@ -1,0 +1,7 @@
+load [R0],[31]
+mul [R0],[32]
+add [R0],[30]
+load [R1],[33]
+sub [R1],[34]
+div [R0],[R1]
+store [R0],[35]
